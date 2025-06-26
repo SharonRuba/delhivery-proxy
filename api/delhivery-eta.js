@@ -25,8 +25,8 @@ export default async function handler(req, res) {
     return res.status(200).end();
   }
 
-  // 🔐 Delhivery API token (keep private!)
-  const token = "0cb64308e902998d445065f64a222c80a393753a";
+  // 🔐 Delhivery API token (keep private!)0cb64308e902998d445065f64a222c80a393753a
+  const token = "";
 
   // ✅ Extract query parameters
   const {
